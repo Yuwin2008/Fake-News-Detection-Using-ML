@@ -111,7 +111,7 @@ NASA successfully launched a new Mars rover mission yesterday.
 
 Prediction:
 
-🟢 REAL NEWS ()
+🔴 FAKE NEWS (90.33%)
 
 ---
 

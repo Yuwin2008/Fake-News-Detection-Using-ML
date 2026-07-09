@@ -139,6 +139,22 @@ Prediction:
 
 ---
 
+## Limitations
+
+This model was trained primarily on political news articles and performs best on articles from similar domains.
+
+Predictions on topics such as:
+- Science
+- Space
+- Sports
+- Entertainment
+- Technology
+
+may be less reliable due to domain shift.
+
+---
+
+
 ## 📈 Future Improvements
 
 * Streamlit deployment

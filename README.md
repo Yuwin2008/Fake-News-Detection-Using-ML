@@ -150,13 +150,13 @@ Prediction:
 ---
 
 ## 📜 License
-
+**MIT License**
 This project is intended for educational and research purposes.
 
 ---
 
 ## 👨‍💻 Author
 
-**RL Yuwin**
+**GodofThunder(RL Yuwin)**
 
 Machine Learning Enthusiast | Kaggle Competitor | Aspiring AI Engineer

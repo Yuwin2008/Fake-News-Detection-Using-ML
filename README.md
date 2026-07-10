@@ -290,7 +290,6 @@ may be less reliable due to domain shift.
 
 ## 📈 Future Improvements
 
-* Streamlit deployment
 * Confidence score visualization
 * Explainable AI techniques (SHAP/LIME)
 * Transformer-based models (BERT)

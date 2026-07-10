@@ -85,7 +85,7 @@ Text data was converted into numerical representations using **TF-IDF Vectorizat
 
 ---
 
-## 🏆 Final Model
+##  Final Model
 
 **Caliberated Support Vector Machine (SVM)** achieved the best performance.
 
@@ -101,7 +101,7 @@ Cross-validation performance:
 
 ---
 
-## 🚀 Example Predictions
+##  Example Predictions
 
 ### Example 1
 
@@ -127,7 +127,7 @@ Prediction:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 * Python
 * Pandas
@@ -136,6 +136,139 @@ Prediction:
 * Scikit-Learn
 * NLTK
 * WordCloud
+
+---
+
+##  Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Fake-News-Detection-Using-ML.git
+cd Fake-News-Detection-Using-ML
+```
+
+---
+
+### 2. Create a Virtual Environment
+
+#### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### macOS / Linux
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+If you do not have a `requirements.txt` file yet, install the required packages manually:
+
+```bash
+pip install streamlit
+pip install scikit-learn
+pip install nltk
+pip install pandas
+pip install numpy
+pip install joblib
+```
+
+---
+
+### 4. Download NLTK Resources
+
+Run Python:
+
+```bash
+python
+```
+
+Then execute:
+
+```python
+import nltk
+
+nltk.download("stopwords")
+nltk.download("punkt")
+nltk.download("wordnet")
+```
+
+Exit Python:
+
+```python
+exit()
+```
+
+---
+
+### 5. Verify Model Files
+
+Ensure the following files exist inside the `models` folder:
+
+```text
+models/
+│
+├── tfidf_vectorizer.pkl
+└── svm_fake_news.pkl
+```
+
+---
+
+### 6. Run the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+The application will automatically open in your browser.
+
+If it does not, open:
+
+```text
+http://localhost:8501
+```
+
+---
+
+##  Features
+
+* Fake News Detection using Machine Learning
+* TF-IDF Vectorization
+* Calibrated Linear SVM Classifier
+* Prediction Confidence Scores
+* Probability Visualization
+* Interactive Streamlit UI
+* Example News Articles
+* Modern Sidebar Dashboard
+
+---
+
+##  Note
+
+This model was trained primarily on political news articles and performs best on articles from similar domains.
+
+Predictions on topics such as:
+
+* Space
+* Science
+* Entertainment
+* Sports
+* Technology
+
+may be less reliable due to domain shift.
+
 
 ---
 
@@ -165,13 +298,13 @@ may be less reliable due to domain shift.
 
 ---
 
-## 📜 License
+##  License
 **MIT License**
 This project is intended for educational and research purposes.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **GodofThunder(RL Yuwin)**
 

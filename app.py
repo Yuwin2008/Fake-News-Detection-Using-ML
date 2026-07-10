@@ -11,6 +11,10 @@ from nltk.stem import WordNetLemmatizer
 # PAGE CONFIG
 # ---------------------------------
 
+nltk.download("stopwords")
+nltk.download("wordnet")
+nltk.download("punkt")
+
 st.set_page_config(
     page_title="Fake News Detector",
     page_icon="📰",

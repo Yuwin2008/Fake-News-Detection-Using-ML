@@ -120,7 +120,7 @@ Features:
 - 20,000 Features
 
 Performance:
-- F1 Score: 98.97%
+- F1 Score: 99.02%
 - CV Accuracy: 98.87%
 """)
 
@@ -202,7 +202,7 @@ with col2:
 
     st.metric(
         "F1 Score",
-        "98.97%"
+        "99.02%"
     )
 
     st.metric(

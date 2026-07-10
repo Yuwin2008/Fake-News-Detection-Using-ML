@@ -1,5 +1,13 @@
 #  Fake News Detection using Machine Learning
 
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-orange?logo=scikitlearn)
+![Streamlit](https://img.shields.io/badge/Streamlit-red?logo=streamlit)
+![NLP](https://img.shields.io/badge/NLP-TF--IDF-green)
+![Linear SVM](https://img.shields.io/badge/Model-Linear%20SVM-purple)
+![F1 Score](https://img.shields.io/badge/F1%20Score-99.02%25-brightgreen)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success)](https://fake-news-detection-using-ml.streamlit.app/)
+
 ##  Project Overview
 
 This project uses **Natural Language Processing (NLP)** and **Machine Learning** to classify news articles as **Real** or **Fake**.

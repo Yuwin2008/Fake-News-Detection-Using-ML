@@ -304,6 +304,10 @@ may be less reliable due to domain shift.
 * Live news article classification
 
 ---
+## Live Demo
+https://fake-news-detection-using-ml.streamlit.app/
+
+---
 
 ##  License
 **MIT License**
